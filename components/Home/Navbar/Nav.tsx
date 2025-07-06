@@ -1,6 +1,7 @@
 import { NavLinks } from '@/constant/constant'
 import Link from 'next/link'
 import React from 'react'
+import { HiBars3BottomRight } from 'react-icons/hi2'
 import { LuNetwork } from 'react-icons/lu'
 
 const Nav = () => {
@@ -35,6 +36,10 @@ const Nav = () => {
 
           {/* Job post Button */}
           <button className='px-8 py-2.5 text-sm hidden sm:block cursor-pointer rounded-lg bg-cyan-700 hover:bg-cyan-900 transition-all duration-300 text-white'>Job Post</button>
+          {/* Theme Toggler */}
+          {/* Burger menu */}
+          <HiBars3BottomRight className=' w-8 h-8 cursor-pointer text-black lg:hidden' />
+
         </div>
       </div>
     </div>
