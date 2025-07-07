@@ -22,7 +22,11 @@ const Nav = ({ openNav }: Props) => {
   }, []);
 
   return (
-    <div className={`transition-all  ${navBg ? "bg-white dark:bg-gray-900 shadow-md" : "fixed"} duration-200 h-[12vh] z-[10000] fixed w-full `} >
+    <div
+      className={`transition-all  ${navBg ? "bg-white dark:bg-gray-900 shadow-md" : "fixed"
+        } duration-200 h-[12vh] z-[10000] fixed w-full `}
+    >
+
       <div className='flex items-center h-full justify-between w-[92%] mx-auto'>
         <div className='flex items-center sm:space-x-20'>
 
@@ -37,7 +41,7 @@ const Nav = ({ openNav }: Props) => {
           {/* NVLINKS */}
           <div className='hidden lg:flex items-center space-x-10'>
             {NavLinks.map((link) => {
-              return <Link key={link.id} href={link.url} className='text-base hover:text-cyan-700 font-medium transition-all duration-200'
+              return <Link key={link.id} href={link.url} className='text-base hover:text-cyan-700 dark:hover:text-cyan-200 font-medium transition-all duration-200'
               >
                 <p>{link.label}</p>
               </Link>
