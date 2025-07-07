@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Provider from "@/components/Hoc/Provider";
+
+
+
 
 const font = Roboto({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -9,8 +13,8 @@ const font = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "job portal |  Landing page",
-  description: "job portal landing page using next js 15",
+  title: "Job Portal | Landing Page",
+  description: "Job portal landing page using Next.js 15",
 };
 
 export default function RootLayout({
@@ -19,12 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${font.className} antialiased`}
-      >
-        <ResponsiveNav />
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${font.className} antialiased`}>
+        <Provider>
+          <ResponsiveNav />
+        </Provider>
+
       </body>
     </html>
   );

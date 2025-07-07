@@ -1,4 +1,5 @@
 "use client";
+import ThemeToggler from '@/components/Helper/ThemeToggler';
 import { NavLinks } from '@/constant/constant'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
@@ -31,6 +32,7 @@ const Nav = ({ openNav }: Props) => {
             </div>
             <h1 className='text-xl hidden sm:block md:text-2xl text-cyan-800 font-bold'>DevHire</h1>
           </div>
+
           {/* NVLINKS */}
           <div className='hidden lg:flex items-center space-x-10'>
             {NavLinks.map((link) => {
@@ -44,13 +46,15 @@ const Nav = ({ openNav }: Props) => {
           </div>
         </div>
         {/* Buttons */}
-        <div className='flex items-center spaxe-x-4'>
+        <div className='flex items-center space-x-4'>
           {/* Login/register button */}
           <button className='px-8 py-2.5 text-xs sm:text-sm rounded-lg cursor-pointer bg-gray-100 hover:bg-gray-300 transition-all duration-300'>Login / Register</button>
 
           {/* Job post Button */}
           <button className='px-8 py-2.5 text-sm hidden sm:block cursor-pointer rounded-lg bg-cyan-700 hover:bg-cyan-900 transition-all duration-300 text-white'>Job Post</button>
           {/* Theme Toggler */}
+          <ThemeToggler />
+
           {/* Burger menu */}
           <HiBars3BottomRight onClick={openNav} className=' w-8 h-8 cursor-pointer text-black lg:hidden' />
 
