@@ -65,7 +65,6 @@ const TopCompany = () => {
       <div className='w-[80%] mx-auto mt-16'>
 
         <Carousel
-
           showDots={false}
           responsive={responsive}
 

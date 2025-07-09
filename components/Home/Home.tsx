@@ -5,6 +5,7 @@ import Job from './Job/Job'
 import TopCompany from './ToCompany/TopCompany'
 import Info from './Info/Info'
 import Price from './Price/Price'
+import Review from './Review/Review'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TopCompany />
       <Info />
       <Price />
+      <Review />
     </div>
   )
 }
