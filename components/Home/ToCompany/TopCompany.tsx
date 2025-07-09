@@ -33,7 +33,7 @@ const CompanyData = [
   },
   {
     id: 2,
-    image: "/images/c1.png",
+    image: "/images/c2.png",
     name: "Stripe",
     location: "Kolkata, India",
     position: "30",
