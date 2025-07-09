@@ -57,6 +57,16 @@ const Footer = () => {
           <p className='footer__link'>Contact</p>
         </div>
 
+        {/* 5th part  */}
+        <div className='space-y-6'>
+          <h1 className='text-lg font-bold text-gray-800 dark:text-gray-200'>Helpful Resources</h1>
+          <p className='footer__link'>Site Map</p>
+          <p className='footer__link'>Terms of Use</p>
+          <p className='footer__link'>Privacy Center </p>
+          <p className='footer__link'>Security Center </p>
+          <p className='footer__link'>Accessibility Center </p>
+        </div>
+
       </div>
     </div>
   )
