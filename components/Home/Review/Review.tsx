@@ -1,3 +1,4 @@
+'use client';
 import SectionHeading from '@/components/Helper/SectionHeading'
 import React from 'react'
 import Carousel from 'react-multi-carousel';
