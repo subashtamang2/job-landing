@@ -68,6 +68,11 @@ const Footer = () => {
         </div>
 
       </div>
+      <div className='pt-6 mt-10 border-t w-[90%] mx-auto border-gray-300 dark:border-gray-800'>
+        <p className='text-gray-500'>
+          @2025 webdevelopers. All right Reserved.
+        </p>
+      </div>
     </div>
   )
 }
