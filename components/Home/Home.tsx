@@ -4,6 +4,7 @@ import Category from './Category/Category'
 import Job from './Job/Job'
 import TopCompany from './ToCompany/TopCompany'
 import Info from './Info/Info'
+import Price from './Price/Price'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Job />
       <TopCompany />
       <Info />
+      <Price />
     </div>
   )
 }
