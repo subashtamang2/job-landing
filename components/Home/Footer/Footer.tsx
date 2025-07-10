@@ -3,7 +3,7 @@ import { LuNetwork } from 'react-icons/lu'
 
 const Footer = () => {
   return (
-    <div className='pt-16 pb-16 bg-gray-900 dark:bg-gray-900'>
+    <div className='pt-16 pb-16 bg-gray-200 dark:bg-gray-900'>
       <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-10 items-start'>
         {/*  1 st part */}
         <div className='xl:col-span-2'>
