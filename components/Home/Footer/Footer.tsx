@@ -24,8 +24,8 @@ const Footer = () => {
             <p className='mt-1 text-gray-600 dark:text-gray-300 lg:text-lg text-base font-bold'>+9765534343</p>
           </div>
           {/* address */}
-          <p className='text-sm text-gray-600 dark:text-gray-400 mt-4'>Dhaka Tangail</p>
-          <p className='text-sm text-gray-600 dark:text-gray-400 mt-2'>Dhaka tangai Banagaledesh</p>
+          <p className='text-sm text-gray-600 dark:text-gray-400 mt-4'>lorem</p>
+          <p className='text-sm text-gray-600 dark:text-gray-400 mt-2'>Nepal</p>
           <p className='text-sm text-gray-600 dark:text-gray-400 mt-2'>example@gmail.com</p>
         </div>
 
